@@ -1,0 +1,52 @@
+body.login { background-color: #ddd; background-image: url('login-bg.jpg'); background-repeat: no-repeat; background-attachment: fixed; 
+  background-position: center; background-size: cover; }
+.login h1 a { background-image: url('motorinews24-logo.png'); width: auto; background-size: auto; height: 90px; }
+.login .button-primary {
+  width: 150px;
+  float:right;
+  background-color:#ed1c24 !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#C00710));
+  background: -webkit-linear-gradient(top, #ed1c24, #C00710);
+  background: -moz-linear-gradient(top, #ed1c24, #C00710);
+  background: -ms-linear-gradient(top, #ed1c24, #C00710);
+  background: -o-linear-gradient(top, #ed1c24, #C00710);
+  background-image: -ms-linear-gradient(top, #ed1c24 0%, #C00710 100%);
+  color: #ffffff;
+  -webkit-border-radius: 4px;
+  border: 1px solid #C00710;
+}
+
+.login .button-primary:hover {
+  background-color:#ed1c24 !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#C00710));
+  background: -webkit-linear-gradient(top, #ed1c24, #C00710 );
+  background: -moz-linear-gradient(top, #ed1c24, #C00710 );
+  background: -ms-linear-gradient(top, #ed1c24, #C00710 );
+  background: -o-linear-gradient(top, #ed1c24, #C00710 );
+  background-image: -ms-linear-gradient(top, #0b436e 0%, #C00710 100%);
+  color: #fff;
+  -webkit-border-radius: 4px;
+  border: 1px solid #C00710;
+}
+
+.login .button-primary:active {
+  background-color:#ed1c24 !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#C00710), to(#ed1c24));
+  background: -webkit-linear-gradient(top, #C00710, #ed1c24);
+  background: -moz-linear-gradient(top, #C00710, #ed1c24);
+  background: -ms-linear-gradient(top, #C00710, #ed1c24);
+  background: -o-linear-gradient(top, #C00710, #ed1c24);
+  background-image: -ms-linear-gradient(top, #C00710 0%, #ed1c24 100%);
+  color: #fff;
+  -webkit-border-radius: 4px;
+  border: 1px solid #C00710;
+}
+
+.wp-core-ui .button-primary { text-shadow: none; box-shadow: 0 1px 0 #C00710; }
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary:focus { box-shadow: 0 1px 0 #C00710,0 0 2px 1px #C00710; }
+.wp-core-ui .button-primary.focus, .wp-core-ui .button-primary.hover, .wp-core-ui .button-primary:focus, .wp-core-ui .button-primary:hover {
+	border-color: #980008; }
+
+.login #login_error, .login .message { border-left: 4px solid #ed1c24; }
+input[type=checkbox]:checked:before { color: #ed1c24; }
+.login #backtoblog a:hover, .login #nav a:hover, .login h1 a:hover { color: #ed1c24; }
