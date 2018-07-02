@@ -49,14 +49,15 @@
   <?php if (function_exists('adv_skin')) {
     adv_skin();
   } ?>
+  
+
+  
+  <?php if (function_exists('adv_high_impact')) {
+    adv_high_impact();
+  } ?>
 
 
-  <div class="newtekadv-mobile-top">
-    <?php if(function_exists('adv_top_mobile_other')) {
-      adv_top_mobile_other();
-    } ?>
-  </div>
-
+ 
 
     <?php /* scroll to top */?>
     <div class="td-scroll-up"><i class="td-icon-menu-up"></i></div>

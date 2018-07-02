@@ -69,11 +69,6 @@ td_js_buffer::add_to_footer (
 		<?php td_api_category_top_posts_style::_helper_show_category_top_posts_style() ?>
 
 
-        <div class="newtekadv-mobile-top">
-          <?php if(function_exists('adv_top_mobile')) {
-            adv_top_mobile();
-          } ?>
-        </div>
         
 
         <!-- content -->
